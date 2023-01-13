@@ -5,7 +5,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 config();
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: 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,
 })
 const token = process.env.TELEGRAM_BOT_TOKEN
 const openai = new OpenAIApi(configuration)
